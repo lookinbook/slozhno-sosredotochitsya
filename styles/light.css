@@ -1,0 +1,33 @@
+.page.theme_light {
+  --text-color: rgba(53, 52, 48, 1);
+  --accent-color: rgba(255, 141, 203, 1);
+  --title-color: rgba(255, 194, 230, 1);
+  --accent-color-2: rgba(53, 52, 48, 1);
+  --accent-color-3: rgba(53, 52, 48, .4);
+  --dark-color: rgba(53, 52, 48, 1);
+  --background-image: url("../images/cover-image-light.png");
+}
+
+.page.theme_light .header span {
+  display: none;
+}
+
+@media (prefers-color-scheme: light) {
+  :root {
+    --text-color: rgba(53, 52, 48, 1);
+    --accent-color: rgba(255, 141, 203, 1);
+    --title-color: rgba(255, 194, 230, 1);
+    --accent-color-2: rgba(53, 52, 48, 1);
+    --accent-color-3: rgba(53, 52, 48, .4);
+    --dark-color: rgba(53, 52, 48, 1);
+    --background-image: url("../images/cover-image-light.png");
+  }
+  .header span {
+    display: none;
+  }
+}
+
+
+
+
+

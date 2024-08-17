@@ -1,0 +1,10 @@
+:root {
+  --text-color: rgba(241, 178, 206, 1);
+  --accent-color: rgba(255, 0, 112, 1);
+  --title-color: rgba(219, 0, 255, 1);
+  --accent-color-2: rgba(255, 0, 112, 1);
+  --accent-color-3: rgba(255, 0, 112, 0.4);
+  --dark-color: rgba(0, 0, 40, 1);
+  --page-font-family: "IBM Plex mono", sans-serif;
+  --background-image: url("../images/cover-image-dark.png");
+}
